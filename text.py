@@ -39,7 +39,7 @@ def pick():
             
     if guess == number:
         guessesTaken = str(guessesTaken)
-        print('Good job, ' + name + '! You guessed my number in ' + guessesTaken + ' guesses!')
+        print('Good job, ' + "name" + '! You guessed my number in ' + guessesTaken + ' guesses!')
 
     if guess != number:
         print('Nope. The number I was thinking of was ' + str(number))
